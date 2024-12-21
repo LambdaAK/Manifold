@@ -6,7 +6,7 @@ CXXFLAGS = -std=c++20 -Wall -Wextra -O2
 SRC_DIR = src
 
 # Source files
-SOURCES = $(SRC_DIR)/main.cpp $(SRC_DIR)/complex.cpp
+SOURCES = $(SRC_DIR)/main.cpp $(SRC_DIR)/complex.cpp $(SRC_DIR)/matrix.cpp
 
 # Target executable
 TARGET = program
